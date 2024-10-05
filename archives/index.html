@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://example.com/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="归档">
+<link rel="stylesheet" href="/scss/style.min.a8202c1e8caddb1e7520f7f33251c1a2394cd91169b79e3e6835cc57dcbd4ac6.css"><meta property='og:title' content="归档">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://example.com/archives/'>
 <meta property='og:site_name' content='Payphone'>
@@ -281,6 +281,17 @@
         <div class="article-list--compact">
             
                 <article>
+    <a href="/p/text/">
+        <div class="article-details">
+            <h2 class="article-title">Text</h2>
+            <footer class="article-time">
+                <time datetime='2024-10-05T19:13:09&#43;08:00'>2024-10-05</time>
+            </footer>
+        </div>
+    </a>
+</article>
+            
+                <article>
     <a href="/p/%E7%AC%AC%E4%B8%80%E4%B8%AAblog/">
         <div class="article-details">
             <h2 class="article-title">第一个blog！</h2>
@@ -328,6 +339,25 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+<script
+    src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+    integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+    crossorigin="anonymous"
+></script>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+    integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+    crossorigin="anonymous"
+/>
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
 </script>
 
     </body>

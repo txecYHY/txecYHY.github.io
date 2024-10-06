@@ -13,11 +13,13 @@
         <pubDate>Sat, 05 Oct 2024 19:13:09 +0800</pubDate>
         
         <guid>https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/</guid>
-        <description>&lt;h1 id=&#34;1本地设置&#34;&gt;1.本地设置
-&lt;/h1&gt;&lt;h2 id=&#34;文章设置&#34;&gt;文章设置
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;1.打开cmd命令行，使用hugo new content post/文章名/index.md创建基本文章文件，如果成功就会出现以下结果:&lt;/p&gt;
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;搭建了hugo博客后，还需要一篇文章一篇文章的git更新，很麻烦，研究了一会，找到了可以利用github Action自动部署的方法&lt;/p&gt;
+&lt;h2 id=&#34;本地设置&#34;&gt;本地设置
+&lt;/h2&gt;&lt;h3 id=&#34;文章设置&#34;&gt;文章设置
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1.打开cmd命令行，使用hugo new content post/文章名/index.md创建基本文章文件，如果成功就会出现以下结果:&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/1.png&#34;
 	width=&#34;1023&#34;
 	height=&#34;68&#34;
@@ -32,8 +34,6 @@
 		data-flex-basis=&#34;3610px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;b&gt;注意：&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -43,9 +43,9 @@
 &lt;p&gt;文章创建后在blog文件（如上图的blog）内的&lt;b&gt;content/post/你创建的文章名&lt;/b&gt;内，可以把文章文件放到此文件夹中，再在markdown中引用文件或其他操作！&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;远程设置&#34;&gt;远程设置
-&lt;/h1&gt;&lt;h2 id=&#34;1github设置&#34;&gt;(1)github设置
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id=&#34;远程设置&#34;&gt;远程设置
+&lt;/h2&gt;&lt;h3 id=&#34;github-设置&#34;&gt;Github 设置
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;本人推荐使用Github desktop软件进行最后一步push步骤（因为我也只能用这个才能push上，用git push不行）本文将介绍使用Github desktop的方法，部分引用letere的文章&lt;/b&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -179,8 +179,8 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;git设置&#34;&gt;git设置
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h3 id=&#34;git设置&#34;&gt;git设置
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;1.在blog主文件右键新建文本文档，命名为&lt;b&gt;.gitignore&lt;/b&gt;&lt;/p&gt;
 &lt;/li&gt;

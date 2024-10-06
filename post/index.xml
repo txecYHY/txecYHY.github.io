@@ -7,13 +7,261 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Payphone</copyright>
-        <lastBuildDate>Sat, 05 Oct 2024 19:13:09 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 06 Oct 2024 12:18:58 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Text</title>
         <link>https://example.com/p/text/</link>
-        <pubDate>Sat, 05 Oct 2024 19:13:09 +0800</pubDate>
+        <pubDate>Sun, 06 Oct 2024 12:18:58 +0800</pubDate>
         
         <guid>https://example.com/p/text/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>(个人项)如何自动部署文章到github pages</title>
+        <link>https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/</link>
+        <pubDate>Sat, 05 Oct 2024 19:13:09 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/</guid>
+        <description>&lt;h1 id=&#34;1本地设置&#34;&gt;1.本地设置
+&lt;/h1&gt;&lt;h2 id=&#34;文章设置&#34;&gt;文章设置
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1.打开cmd命令行，使用hugo new content post/文章名/index.md创建基本文章文件，如果成功就会出现以下结果:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/1.png&#34;
+	width=&#34;1023&#34;
+	height=&#34;68&#34;
+	srcset=&#34;https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/1_hu2693411859044575824.png 480w, https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/1_hu2070806374178683300.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;结果&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1504&#34;
+		data-flex-basis=&#34;3610px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;注意：&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在blog主文件路径栏输入&amp;rsquo;&lt;b&gt;cmd&lt;/b&gt;&amp;rsquo;，&lt;b&gt;不要在其他路径下！&lt;/b&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文章创建后在blog文件（如上图的blog）内的&lt;b&gt;content/post/你创建的文章名&lt;/b&gt;内，可以把文章文件放到此文件夹中，再在markdown中引用文件或其他操作！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;远程设置&#34;&gt;远程设置
+&lt;/h1&gt;&lt;h2 id=&#34;1github设置&#34;&gt;(1)github设置
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;本人推荐使用Github desktop软件进行最后一步push步骤（因为我也只能用这个才能push上，用git push不行）本文将介绍使用Github desktop的方法，部分引用letere的文章&lt;/b&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.前往&lt;code&gt;Setttings -&amp;gt; Developer Settings -&amp;gt; Personal access tokens&lt;/code&gt;，创建一个token(classic)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/createToken1_hu4766607541a74e947c83c2388882dd72_53636_1024x0_resize_box_3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;token设置&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.token选择永不过期，并勾选 &lt;strong&gt;repo&lt;/strong&gt; 和 &lt;strong&gt;workflow&lt;/strong&gt; 选项&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/createToken2_huda58f9f86b34c5d074df9a9a778ea617_56016_1024x0_resize_box_3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;token&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3.为保证安全，将生成的token，保存的仓库的变量中，前往&lt;code&gt;Settings -&amp;gt; Secrets and variables -&amp;gt; Actions&lt;/code&gt;中设置&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/createToken3_hucc7d21bd60774f30bc8fab31a1d73b28_25059_1024x0_resize_box_3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;token&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/setToken1_hu5afa2fb67f7ac9ecab12c537647b0ad8_77407_1024x0_resize_box_3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;token&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;4.在hugo主文件创建一个&lt;code&gt;.github/workflows/xxxx.yaml&lt;/code&gt;文件，将以下内容复制进去，想具体了解更多，可查看【&lt;a class=&#34;link&#34; href=&#34;https://docs.github.com/zh/actions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Action文档&lt;/a&gt;】&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;name: deploy
+
+# 代码提交到main分支时触发github action
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+          with:
+              fetch-depth: 0
+
+        - name: Setup Hugo
+          uses: peaceiris/actions-hugo@v3
+          with:
+              hugo-version: &amp;quot;latest&amp;quot;
+              extended: true
+
+        - name: Build Web
+          run: hugo -D
+
+        - name: Deploy Web
+          uses: peaceiris/actions-gh-pages@v4
+          with:
+              PERSONAL_TOKEN: ${{ secrets.你的token变量名 }}
+              EXTERNAL_REPOSITORY: 你的github名/你的仓库名
+              PUBLISH_BRANCH: main
+              PUBLISH_DIR: ./public
+              commit_message: auto deploy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;git设置&#34;&gt;git设置
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1.在blog主文件右键新建文本文档，命名为&lt;b&gt;.gitignore&lt;/b&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.在&lt;b&gt;.gitignore&lt;/b&gt;中输入以下内容，来&lt;b&gt;避免提交不必要的&lt;/b&gt;文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# 自动生成的文件&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;resources&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;.hugo_build.lock&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# hugo命令&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;hugo.exe&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3.在blog主文件右键选择Open git bush here&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/OpenGitBushHere.jpg&#34;
+	width=&#34;334&#34;
+	height=&#34;453&#34;
+	srcset=&#34;https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/OpenGitBushHere_hu7679945090294516356.jpg 480w, https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/OpenGitBushHere_hu8636961286108699108.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;73&#34;
+		data-flex-basis=&#34;176px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;4.然后在此页面分别输入:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/MINGW.jpg&#34;
+	width=&#34;751&#34;
+	height=&#34;448&#34;
+	srcset=&#34;https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/MINGW_hu2240265064252604849.jpg 480w, https://example.com/p/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/MINGW_hu8924441228019222804.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;402px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;first commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;5.然后打开&amp;quot;Github desktop&amp;quot;软件(推荐用地球&lt;b&gt;魔法&lt;/b&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;6.选择Add existing repository导入&lt;b&gt;blog主文件&lt;/b&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;7.点击New branch创建新分支main(&lt;b&gt;分析:代码内使用main分支，而desktop内默认使用master分支，导致上传后Action失败&lt;/b&gt;)&lt;/p&gt;
+&lt;p&gt;![图例](branch main.png )&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;8.点击旁边或下面蓝色按钮&lt;b&gt;“publish repository”&lt;/b&gt;类似字样&lt;/p&gt;
+&lt;p&gt;![图例](publish repository.jpg )&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;9.填写第一栏为&lt;b&gt;&amp;ldquo;hugo-main&amp;rdquo;&lt;/b&gt;后点击&lt;b&gt;“Publish repository”&lt;/b&gt;上传至远程仓库&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;![图例](publish repository2.jpg )&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10.如果一切正常在仓库的&lt;b&gt;Actions&lt;/b&gt;中会显示一个workflows正常运行run(打勾)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-%E5%85%8D%E8%B4%B9%E9%83%A8%E7%BD%B2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/githubActionRun_hu84c0fe2cd56b8ab4941172dc9f206338_36617_1024x0_resize_box_3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图例&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这时文章就被上传了，&lt;b&gt;此教程内步骤：文章设置和git设置1-5、8(点击Fetch origin)可重复操作以实现自动部署&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
         </item>
         <item>
         <title>第一个blog！</title>

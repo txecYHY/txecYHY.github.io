@@ -7,7 +7,55 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Payphone</copyright>
-        <lastBuildDate>Sat, 05 Oct 2024 19:13:09 +0800</lastBuildDate><atom:link href="https://txecYHY.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Oct 2024 05:14:24 +0800</lastBuildDate><atom:link href="https://txecYHY.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>上传图片至二初图库及已通过图片名单</title>
+        <link>https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/</link>
+        <pubDate>Sun, 13 Oct 2024 05:14:24 +0800</pubDate>
+        
+        <guid>https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;自从二初图库开始在数字时钟上使用，就已经开放了上传图片的功能，现在，我们完善了审核方式，使得更快的上传图片至二初图库，请看下面教程：&lt;/p&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
+&lt;/h2&gt;&lt;p&gt;首先，你要有一张格式为png，大小为4.5MB以内的待上传图片&lt;b&gt;(byd没图片别过来找我)&lt;/b&gt;&lt;/p&gt;
+&lt;h3 id=&#34;扩展我的照片是jpg或更多格式我该怎么更改为png格式&#34;&gt;扩展:我的照片是jpg或更多格式，我该怎么更改为png格式
+&lt;/h3&gt;&lt;p&gt;错误方法: &lt;del&gt;直接改后缀格式&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;正确方法:找一个转换网站，可在搜索引擎搜索&amp;quot;格式 + 转换为png格式&amp;quot;（推荐bing）&lt;/p&gt;
+&lt;p&gt;然后点开网站，将图片上传上去，等待转换完成后再下载下来（如下图）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/ZHJG.png&#34;
+	width=&#34;1036&#34;
+	height=&#34;622&#34;
+	srcset=&#34;https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/ZHJG_hu17163723445218979497.png 480w, https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/ZHJG_hu16718816445630319970.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;399px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;此时，转换工作已完毕&lt;/p&gt;
+&lt;h2 id=&#34;上传&#34;&gt;上传
+&lt;/h2&gt;&lt;h3 id=&#34;添加好友&#34;&gt;添加好友
+&lt;/h3&gt;&lt;p&gt;要求:一个QQ账号&lt;/p&gt;
+&lt;p&gt;如果你有，便可进行以下操作：&lt;/p&gt;
+&lt;p&gt;添加数字时钟的图片上传者QQ好友&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/SQ.png&#34;
+	width=&#34;493&#34;
+	height=&#34;652&#34;
+	srcset=&#34;https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/SQ_hu585574139465776468.png 480w, https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/SQ_hu14510163738418852768.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;181px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;注意！申请原因写：XXX班XXX上传图片，否则不予通过&lt;/p&gt;
+&lt;p&gt;等待通过后跟着要求做就可上传了！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>如何自动部署文章到github pages</title>
         <link>https://txecYHY.github.io/p/%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%96%87%E7%AB%A0%E5%88%B0github-pages/</link>
         <pubDate>Sat, 05 Oct 2024 19:13:09 +0800</pubDate>

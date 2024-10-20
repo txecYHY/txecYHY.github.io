@@ -16,24 +16,7 @@
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;自从二初图库开始在数字时钟上使用，就已经开放了上传图片的功能，现在，我们完善了审核方式，使得更快的上传图片至二初图库，请看下面教程：&lt;/p&gt;
 &lt;h2 id=&#34;准备工作&#34;&gt;准备工作
-&lt;/h2&gt;&lt;p&gt;首先，你要有一张格式为png，大小为4.5MB以内的待上传图片&lt;b&gt;(byd没图片别过来找我)&lt;/b&gt;&lt;/p&gt;
-&lt;h3 id=&#34;扩展我的照片是jpg或更多格式我该怎么更改为png格式&#34;&gt;扩展:我的照片是jpg或更多格式，我该怎么更改为png格式
-&lt;/h3&gt;&lt;p&gt;错误方法: &lt;del&gt;直接改后缀格式&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;正确方法:找一个转换网站，可在搜索引擎搜索&amp;quot;格式 + 转换为png格式&amp;quot;（推荐bing）&lt;/p&gt;
-&lt;p&gt;然后点开网站，将图片上传上去，等待转换完成后再下载下来（如下图）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/ZHJG.png&#34;
-	width=&#34;1036&#34;
-	height=&#34;622&#34;
-	srcset=&#34;https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/ZHJG_hu17163723445218979497.png 480w, https://txecYHY.github.io/p/%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E4%BA%8C%E5%88%9D%E5%9B%BE%E5%BA%93%E5%8F%8A%E5%B7%B2%E9%80%9A%E8%BF%87%E5%9B%BE%E7%89%87%E5%90%8D%E5%8D%95/ZHJG_hu16718816445630319970.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;166&#34;
-		data-flex-basis=&#34;399px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;此时，转换工作已完毕&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;首先，你要有一张大小为4.5MB以内的待上传图片&lt;b&gt;(byd没图片别过来找我)&lt;/b&gt;&lt;/p&gt;
 &lt;h2 id=&#34;上传&#34;&gt;上传
 &lt;/h2&gt;&lt;h3 id=&#34;添加好友&#34;&gt;添加好友
 &lt;/h3&gt;&lt;p&gt;要求:一个QQ账号&lt;/p&gt;
